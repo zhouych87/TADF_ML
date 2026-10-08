@@ -1,5 +1,6 @@
 # TADF_ML
 Prediciton of emission wavelength (λem) and the singlet–triplet energy gap (Δ EST) of TADF devices
+for the work of "A Systematic Machine Learning Framework for Predicting Key Properties of Energy Materials: A Case Study on High-Efficiency TADF Emitters"
 
 In the fig2 and fig3 folders, the "opt2" programs are used for model training and hyperparameter optimization, and the "plot" programs are used for plotting. The two files with the same name but with .csv and .pkl extensions are the descriptor files ultimately used as inputs for model training. The CSV files with "prediction_data" in their names contain the experimental values of the prediction targets together with their corresponding model-predicted values. The CSV files with "results_...sorted" in their names contain the performance metrics of the models corresponding to each max features value for that descriptor–model combination. The .pkl files with "best_model" in their names are the optimal model files for that descriptor–model combination. To use the programs, simply prepare the descriptor files needed for model training, and modify the input file names and parameters such as max features in the programs.
 
